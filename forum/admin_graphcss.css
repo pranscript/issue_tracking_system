@@ -1,0 +1,123 @@
+
+                                       /*    ISSUE PAGE CSS ( INDEX PAGE )     */
+
+
+*{margin:0px;padding:0px;}
+#body{background:#f5fafa;}
+#bodywrapper{width:100%;background:;}
+
+/*    Header CSS           */
+
+#header{width:100%;background:;height:100px;border-bottom:3px solid steelblue;background:url('vertical_cloth.png');}
+#headerimg{background:;width:800px;position:absolute;margin-top:5px;}
+#headerimg img{position:absolute;left:90px;}
+
+#linktohome{position:absolute;left:1023px;top:10px;width:;height:;background:;border-right:1px solid lavender;}
+#linktohome a{display:block;color:lavender;text-decoration:none;padding-right:5px;}
+#linktohome a:hover{text-decoration:underline;color:thistle;}
+
+
+#linktoadminlogout{position:absolute;left:1080px;top:10px;width:;height:;background:;border-right:1px solid lavender;}
+#linktoadminlogout a{display:block;color:lavender;text-decoration:none;padding-right:5px;}
+#linktoadminlogout a:hover{text-decoration:underline;color:thistle;}
+
+#linktoprint{position:absolute;left:1190px;top:10px;width:;height:;background:;padding-right:5px;border-right:1px solid lavender;}
+#linktoprint img{cursor:pointer;}
+
+
+/*     Result DIV CSS                    */
+
+#result{width:1280px;margin:auto;background:#f5fafa;margin-top:10px;margin-bottom:50px;border:1px solid steelblue;}
+
+/*      Menu Bar CSS                */
+
+#menuwrapper{width:100%;background:;height:120px;border:1px solid steelblue;}
+
+#showall{cursor:pointer;background:#66829d;background:#4a4f53;background:#292b30;padding:5px 30px;height:20px;position:absolute;left:100px;border-bottom-left-radius:10px;border-bottom-right-radius:10px;color:#cadae6;}
+#showallhidden{display:none;width:515px;height:73px;background:#f0f1ee;overflow:hidden;position:absolute;margin-top:42px;left:100px;border-radius:10px;border:1px solid grey;}
+#showallhidden span{margin:10px;margin-left:26px;padding:5px;display:block;background:#c1dad6;float:left;border:1px dashed grey;text-align:center;}
+#showallhidden span div{position:relative;}
+#showall:hover{color:white;}
+
+#solved{cursor:pointer;background:#66829d;background:#4a4f53;background:#292b30;padding:5px 30px;position:absolute;left:300px;border-bottom-left-radius:10px;border-bottom-right-radius:10px;color:#cadae6;}
+#solvedhidden{display:none;width:515px;height:73px;background:#f0f1ee;overflow:hidden;position:absolute;margin-top:42px;left:100px;border-radius:10px;border:1px solid grey;}
+#solvedhidden span{margin:10px;margin-left:26px;padding:5px;display:block;background:#c1dad6;float:left;border:1px dashed grey;text-align:center;}
+#solved:hover{color:white;}
+
+#unsolved{cursor:pointer;background:#66829d;background:#4a4f53;background:#292b30;padding:5px 30px;position:absolute;left:500px;border-bottom-left-radius:10px;border-bottom-right-radius:10px;color:#cadae6;}
+#unsolvedhidden{display:none;width:515px;height:73px;background:#f0f1ee;overflow:hidden;position:absolute;margin-top:42px;left:100px;border-radius:10px;border:1px solid grey;}
+#unsolvedhidden span{margin:10px;margin-left:26px;padding:5px;display:block;background:#c1dad6;float:left;border:1px dashed grey;text-align:center;}
+#unsolved:hover{color:white;}
+
+.uptrans,.downtrans{cursor:pointer;margin:0px 3px;}
+.uptrans:hover{box-shadow:0px 0px 5px 1px black;
+                -moz-box-shadow:0px 0px 5px 1px black;
+				-webkit-box-shadow:0px 0px 5px 1px black;
+				-ms-box-shadow:0px 0px 5px 1px black;}
+.downtrans:hover{box-shadow:0px 0px 5px 1px black;
+                 -webkit-box-shadow:0px 0px 5px 1px black;
+				 -moz-box-shadow:0px 0px 5px 1px black;
+				 -ms-box-shadow:0px 0px 5px 1px black;}
+
+#search_div{width:500px;height:100px;background:;position:absolute;left:980px;top:140px;}
+
+
+#query{width:100%;background:;height:350px;border:1px solid steelblue;}
+#select{width:110px;position:absolute;background:#e6f0e1;margin-top:10px;margin-left:50px;padding:20px;}
+#select ul{margin-top:10px;}
+#select ul li {list-style:none;margin-bottom:5px;}
+
+#where{width:400px;position:absolute;background:#e6f0e1;margin-top:10px;margin-left:250px;padding:20px;}
+#where ul{margin-top:10px;}
+#where ul li {list-style:none;margin-bottom:5px;}
+
+#orderby{width:175px;position:absolute;background:#e6f0e1;margin-top:10px;margin-left:750px;padding:20px;}
+#orderby ul{margin-top:10px;}
+#orderby ul li {list-style:none;margin-bottom:5px;}
+
+#ascdesc{width:175px;position:absolute;background:#e6f0e1;margin-top:10px;margin-left:1020px;padding:20px;}
+#ascdesc ul{margin-top:10px;}
+#ascdesc ul li {list-style:none;margin-bottom:5px;}
+
+#submit1{margin-top:300px;Margin-left:1100px;}
+
+
+#graph{width:100%;background:;height:350px;border:1px solid steelblue;}
+#field{width:110px;position:absolute;background:#e6f0e1;margin-top:10px;margin-left:50px;padding:20px;}
+
+#graphwhere{width:400px;position:absolute;background:#e6f0e1;margin-top:10px;margin-left:250px;padding:20px;}
+#graphwhere ul{margin-top:10px;}
+#graphwhere ul li {list-style:none;margin-bottom:5px;}
+
+#submit2{margin-top:300px;Margin-left:1100px;}
+
+/*    CSS OF THE DATA EXTRACTED              */
+
+#txtHint{margin-top:10px;}
+.table {width:1280px;border:2px solid steelblue;background:;}
+.table th{border:1px solid steelblue;padding:10px 0px;}
+.table td{border:0px solid steelblue;padding:5px 0px;text-align:center;}
+.table td:nth-child(1){width:100px;background:;}
+.table td:nth-child(2){width:50px;}
+.table td:nth-child(3){width:1180px;background:;}
+/*.table td:nth-child(3){max-width:70px;min-width:50px;background:;}
+.table td:nth-child(4){max-width:500px;min-width:500px;background:;}
+.table td:nth-child(4) a{color:#0000CD;text-decoration:none;text-height:10px;}
+.table td:nth-child(4) a:hover{color:#DC143C;text-decoration:underline;}
+.table td:nth-child(5){max-width:70px;min-width:50px;background:;}
+.table td:nth-child(6){max-width:70px;min-width:50px;background:;}
+.table td:nth-child(7){max-width:70px;min-width:50px;background:;}
+
+
+.table td:nth-child(8){max-width:100px;min-width:50px;background:;color:#DC143C;}
+.table td:nth-child(9){max-width:100px;min-width:60px;background:;}
+
+*/
+.table tr:nth-child(odd){background:#eee7da;}
+
+.table th{background:#292b30;color:#cadae6;}
+
+
+
+
+

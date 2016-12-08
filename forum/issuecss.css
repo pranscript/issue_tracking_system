@@ -1,0 +1,53 @@
+                  
+				  /*               SUBMIT ISSUE PAGE CSS               */
+
+
+*{margin:0px;padding:0px;}
+#body{background:#f5fafa;}
+#bodywrapper{width:100%;background:;}
+
+/*          HEADER CSS            */
+
+#header{width:100%;background:;height:100px;border-bottom:3px solid steelblue;background:url('vertical_cloth.png');}
+#headerimg{background:red;width:800px;position:absolute;margin-top:5px;}
+#headerimg img{position:absolute;left:90px;}
+
+#linktohome{position:absolute;left:863px;top:10px;width:;height:;background:;border-right:1px solid lavender;}
+#linktohome a{display:block;color:lavender;text-decoration:none;padding-right:5px;}
+#linktohome a:hover{text-decoration:underline;color:thistle;}
+
+#linktoissuepage{position:absolute;left:920px;top:10px;width:;height:;background:;border-right:1px solid lavender;}
+#linktoissuepage a{display:block;color:lavender;text-decoration:none;padding-right:5px;}
+#linktoissuepage a:hover{text-decoration:underline;color:thistle;}
+
+#linktoadminlogin{position:absolute;left:1080px;top:10px;width:;height:;background:;border-right:1px solid lavender;}
+#linktoadminlogin a{display:block;color:lavender;text-decoration:none;padding-right:5px;}
+#linktoadminlogin a:hover{text-decoration:underline;color:thistle;}
+
+
+#linktosubmitissue{position:absolute;left:980px;top:10px;width:;height:;background:;border-right:1px solid lavender;}
+#linktosubmitissue a{display:block;color:lavender;text-decoration:none;padding-right:5px;}
+#linktosubmitissue a:hover{text-decoration:underline;color:thistle;}
+
+#linktoleaderboard{position:absolute;left:1180px;top:10px;width:;height:;background:;border-right:1px solid lavender;}
+#linktoleaderboard a{display:block;color:lavender;text-decoration:none;padding-right:5px;}
+#linktoleaderboard a:hover{text-decoration:underline;color:thistle;}
+
+/*          FORM FIELD CSS            */
+
+#issuediv{width:1000px;height:600px;background:lavender;margin:auto;margin-top:30px;margin-bottom:50px;border-top:3px solid steelblue;border-bottom:3px solid steelblue;border-left:1px solid steelblue;border-right:1px solid steelblue;}
+#issuediv h2{display:block;position:absolute;left:250px;margin-top:20px;}
+#issuediv p{display:block;position:absolute;left:250px;margin-top:40px;}
+#issuediv p span{color:red;}
+
+
+#formdiv{position:absolute;background:;margin-top:80px;}
+#formdiv ul{float:left;}
+#formdiv ul span{color:red;}
+#formname{margin-left:65px;}
+#formfield{margin-left:150px;}
+#formdiv ul li{list-style-type:none;clear:both;float:left;margin-top:20px;}
+
+
+
+

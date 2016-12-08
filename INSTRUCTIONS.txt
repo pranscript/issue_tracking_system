@@ -1,0 +1,64 @@
+
+------------->> Steps on How to install and set up the database ---------------->>
+
+NOTE : 	THESE INSTRUCTIONS ARE ONLY MEANT FOR THE WINDOWS OPERATING SYSTEM.
+
+
+Step 1 - Install xampp server on your system.
+
+Step 2 - Now start the apache and mysql functions in it . This can be found by double clicking the xampp icon on the bottom right corner in the notification bar . 
+
+Step 3 - Now copy the ' forum  ' folder provided with this suite , and follow the path : C drive -> xampp -> htdocs , and paste the ' forum ' folder there as it is . 
+
+Step 4 - Now open your browser whichever you prefer and type the address " localhost/phpmyadmin " into the address bar without the qoutes.
+
+Step 5 - Now click the database option found on the top menu.
+
+Step 6 - Create a database name " forum " without the quotes and then click on the " Go " button found at the bottom. This will create an empty database.
+
+Step 7 - Now to import tables, click on the database name from the side menu which you have created i.e " forum ". After that, click the " import " button from the top menu. Click on the choose file button and select each and every file one by one with the extension ".sql" from the tables folder provided in the suite and press the "Go" button .
+
+Step 8 - Now open another tab in your browser and type the address " localhost/forum/home.php " without the quotes.
+         This opens up your homepage for ' Issue tracking System '.
+
+
+
+NOTE :   After starting the apache and mysql functions, it can show an error stating ' ports conflict '. This is due to the fact that there may be some other          application on your system that is utilizing the same ports that your apache or mysql fuctions are using i.e port:80. In that case we have to manually change          the ports which are getting conflicted. This can be done by configuring it in the php.ini file.
+
+
+
+
+-------------->> Steps to increase the maximum file size uploaded ( default = 2MB ) and to increase the maximum POST size uploaded ( default = 8MB ) <<----------------
+
+
+Step 1 - Open the path : C drice -> xampp -> php .
+
+Step 2 - Now find a file named " php.ini ".
+
+Step 3 - Open up the file and in that search the text " upload_max_filesize " without the quotes ( ctrl + f ). Increase it according to your needs.
+
+Step 4 - To increase the maximum POST size, find the text " post_max_size " without the quotes. It should be greater than          the total size of files uploaded at the same time.
+
+Step 5 - Save it, restart the server to make it effective.
+
+
+NOTE :   Make sure you change the password too in the " connection.php " file which can be found inside " C drive -> xampp -> htdocs -> forum " otherwise the database will not be able to connect and thus will not provide the results.
+
+
+-------------->> Steps to register as an administrator <<--------------
+
+
+Step 1 - Open up your browser and type the address " localhost/phpmyadmin " without the quotes.
+
+Step 2 - Now from the left menu, select the database i.e " forum " and choose the table " admin ".
+
+Step 3 - Now from the top menu click the " Insert " button.
+
+Step 4 - Fill the " ADMIN_NAME " and " PASSWORD " field leaving the " NUMBER " field blank as it will be generated                  automatically.
+
+Step 5 - After filling the " ADMIN_NAME " and " PASSWORD " field, press the " Go " button at the bottom. This will                  register the name as an administrator.
+
+
+
+
+

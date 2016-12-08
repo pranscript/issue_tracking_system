@@ -1,0 +1,26 @@
+*{margin:0px;
+  padding:0px;}
+  
+body{background:url('halftone.png');width:100%}
+
+
+#wrapper{width:400px;height:400px;background:;margin:auto;position:relative;top:-300px;box-shadow:3px 15px 50px 1px grey;-webkit-box-shadow:3px 15px 50px 1px grey;-moz-box-shadow:3px 15px 50px 1px grey;-ms-box-shadow:3px 15px 50px 1px grey;}
+#wrappershadow{width:400px;height:410px;background:#fcfcff;position:absolute;left:0px;right:0px;margin-left:auto;margin-right:auto;top:-150px;}
+
+#logo{width:400px;position:relative;background:;top:20px;}
+#logo img{display:block;margin:auto;}
+#logo1 {width:400px;position:relative;background:;top:30px;}
+#logo1 img{display:block;margin:auto;position:relative;left:-10px}
+#menu{width:300px;height:200px;background:;margin:auto;position:relative;top:0px;}
+
+
+#submit{width:140px;height:50px;background:;position:absolute;top:50px;box-shadow:1px 0px 10px 1px lavender;-webkit-box-shadow:1px 0px 10px 1px lavender;-moz-box-shadow:1px 0px 10px 1px lavender;-ms-box-shadow:1px 0px 10px 1px lavender;}
+#submit:hover{box-shadow:1px 0px 10px 1px grey;-webkit-box-shadow:1px 0px 10px 1px grey;-moz-box-shadow:1px 0px 10px 1px grey;-ms-box-shadow:1px 0px 10px 1px grey;}
+
+#issues{width:140px;height:50px;background:;position:absolute;top:50px;left:160px;box-shadow:1px 0px 10px 1px lavender;-webkit-box-shadow:1px 0px 10px 1px lavender;-moz-box-shadow:1px 0px 10px 1px lavender;-ms-box-shadow:1px 0px 10px 1px lavender;}
+#issues:hover{box-shadow:1px 0px 10px 1px grey;-webkit-box-shadow:1px 0px 10px 1px grey;-moz-box-shadow:1px 0px 10px 1px grey;-ms-box-shadow:1px 0px 10px 1px grey;}
+
+#admin{width:140px;height:50px;background:;position:absolute;top:130px;left:80px;box-shadow:1px 0px 10px 1px lavender;-webkit-box-shadow:1px 0px 10px 1px lavender;-moz-box-shadow:1px 0px 10px 1px lavender;-ms-box-shadow:1px 0px 10px 1px lavender;}
+#admin:hover{box-shadow:1px 0px 10px 1px grey;-webkit-box-shadow:1px 0px 10px 1px grey;-moz-box-shadow:1px 0px 10px 1px grey;-ms-box-shadow:1px 0px 10px 1px grey;}
+
+
