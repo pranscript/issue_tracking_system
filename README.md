@@ -10,10 +10,10 @@
 
 ****
 
-### How to run (make is needed)
+### How to run
 
 1. Follow the INSTRUCTIONS.txt file 
 
 ****
 
-[![HitCount](http://hits.dwyl.com/pranscript/cache_simulator.svg)](http://hits.dwyl.com/pranscript/cache_simulator)
+[![HitCount](http://hits.dwyl.com/pranscript/issue_tracking_system.svg)](http://hits.dwyl.com/pranscript/issue_tracking_system)
